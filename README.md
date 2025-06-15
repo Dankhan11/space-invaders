@@ -1,7 +1,9 @@
 # Space Invaders
-![Screenshot 2025-06-15 at 20 41 42](https://github.com/user-attachments/assets/30f005b6-0029-4f6c-851a-1e0dd0b340f4)
-
 A recreation of the classic Space Invaders arcade game using Python and Pygame.
+
+![Screenshot 2025-06-15 at 20 50 47](https://github.com/user-attachments/assets/cb0ed49e-7989-427c-b521-a4796a754821)
+
+
 
 ## Game Features
 

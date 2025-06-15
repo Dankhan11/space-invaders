@@ -1,37 +1,38 @@
-# Retro Games Collection
+# Space Invaders
 
-A collection of classic arcade games recreated with Python and Pygame.
+A recreation of the classic Space Invaders arcade game using Python and Pygame.
 
-## Games Included
+## Game Features
 
-### Space Invaders
-A recreation of the classic Space Invaders arcade game where you defend Earth from alien invaders.
-
-**Features:**
 - Player ship with movement and shooting mechanics
-- Alien enemies that move in formation
-- Lives system and scoring
-- Progressive difficulty with levels
-- Power-ups and special effects
+- Alien enemies that move in formation and shoot back
+- Lives system with visual indicators
+- Progressive difficulty with advancing levels
+- Score system with higher points for tougher enemies
 
-**Controls:**
-- LEFT/RIGHT arrows to move
-- SPACEBAR to shoot
-- R to restart after game over
-- N to advance to next level
+## Controls
 
-### Pac-Man
-A version of the iconic Pac-Man maze game.
+- **LEFT/RIGHT arrows**: Move your ship
+- **SPACEBAR**: Shoot (with cooldown to prevent spamming)
+- **R**: Restart after game over
+- **N**: Advance to next level after winning
 
-**Features:**
-- Classic maze navigation
-- Dots and power pellets to collect
-- Ghost enemies with basic AI
-- Lives system and scoring
+## Game Mechanics
 
-**Controls:**
-- Arrow keys to navigate the maze
-- R to restart after game over
+### Player
+- 3 lives with temporary invulnerability after being hit
+- Controlled shooting rate to balance difficulty
+- Visual feedback when damaged
+
+### Aliens
+- Move in formation and descend when reaching screen edges
+- Shooting frequency increases as fewer aliens remain
+- Different rows worth different point values
+
+### Difficulty Progression
+- Each level increases alien speed
+- Enemy shooting frequency increases over time
+- Balanced to provide a challenging but fair experience
 
 ## Requirements
 - Python 3.x
@@ -41,10 +42,10 @@ A version of the iconic Pac-Man maze game.
 
 1. Clone this repository
 2. Install Pygame: `pip install pygame`
-3. Run a game: `python space_invaders.py` or `python pacman.py`
+3. Run the game: `python space_invaders.py`
 
 ## Future Improvements
 - Add sound effects and music
 - Implement high score tracking
-- Add more levels and enemy types
-- Create additional classic arcade games
+- Add more enemy types and formations
+- Include boss battles and power-ups
